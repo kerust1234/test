@@ -5,9 +5,6 @@
  */
 package unionpayproject;
 
-import java.util.List;
-import java.util.ArrayList;
-
 /**
  *
  * @author CN085258
@@ -21,6 +18,7 @@ public class UnionPayProject {
 		// TODO code application logic here
 		// UnionpayOrderVOImpl order = new UnionpayOrderVOImpl();
 		System.out.println("hello");
+		System.out.println("hello world");
 	}
 
 }
