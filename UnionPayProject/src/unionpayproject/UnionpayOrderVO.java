@@ -15,7 +15,8 @@ public class UnionpayOrderVO {
 
 	protected String orderNo;
     protected String respCode;
-    protected ArrayList list01;
+    @SuppressWarnings("rawtypes")
+	protected ArrayList list01;
 
 	/**
      * @return the orderNo
@@ -104,6 +105,7 @@ public class UnionpayOrderVO {
 		this.respCode = respCode;
 	}
 	
+	@SuppressWarnings("rawtypes")
 	public ArrayList getArrayList() {
 		return new ArrayList();
 	}
