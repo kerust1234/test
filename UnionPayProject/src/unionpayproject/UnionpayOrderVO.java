@@ -105,6 +105,7 @@ public class UnionpayOrderVO {
 		this.respCode = respCode;
 	}
 	
+	@SuppressWarnings("rawtypes")
 	public ArrayList getArrayList() {
 		return new ArrayList();
 	}
